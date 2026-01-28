@@ -25,8 +25,8 @@ jobs:
       env:
         # 左边是代码里需要的名字，右边是你设置的Secret名字
         # 如果你之前设置Secret用的名字不一样，请修改 ${{ secrets.XXX }} 里的XXX
-        user: ${{ secrets.user }}
-        password: ${{ secrets.password }}
+        user: ${{ secrets.USER }}
+        password: ${{ secrets.PASSWORD }}
         step_min: 20000
         step_max: 25000
       run: |
